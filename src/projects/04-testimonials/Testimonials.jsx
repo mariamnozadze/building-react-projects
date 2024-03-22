@@ -4,7 +4,9 @@ import Button from "../components/Button";
 import { BsFillFileEarmarkPostFill } from "react-icons/bs";
 import { FaUserAlt } from "react-icons/fa";
 import { BiCommentDetail } from "react-icons/bi";
+
 export default function TestimonialsApp() {
+
   const [testimonials, setTestimonials] = useState("");
   const [items, setItems] = useState();
 
